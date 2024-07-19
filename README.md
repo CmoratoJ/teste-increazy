@@ -15,8 +15,19 @@ cd teste-increazy/
 ```
 composer install
 ```
-- Após realizar a instalação das dependências execute o seguinte comando para rodar o servidor local
+- Após realizar a instalação das dependências execute os seguintes comandos
+```
+php artisan key:generate
+```
+```
+php artisan migrate --seed
+```
 ```
 php artisan serve
 ```
+
 - Acesse a rota http://localhost:8000/search/local/17560246
+
+
+
+
