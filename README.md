@@ -11,9 +11,12 @@ git clone https://github.com/CmoratoJ/teste-increazy.git
 ```
 cd teste-increazy/  
 ```
-- Agora que os arquivos foram devidamente baixados para o seu diretório, execute o comando abaixo para isntalar as dependências do projeto:
+- Agora que os arquivos foram devidamente baixados para o seu diretório, execute os comandos abaixo para isntalar as dependências do projeto e onfigurar o seu arquivo .env com base no arquivo .env.example:
 ```
 composer install
+```
+```
+cp .env.example .env
 ```
 - Após realizar a instalação das dependências execute os seguintes comandos
 ```
